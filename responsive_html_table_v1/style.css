@@ -1,0 +1,31 @@
+table{
+    width: 100%;
+    border-collapse: collapse; /*remove cells spacing*/
+}
+
+.table-one th{
+    background-color: cornflowerblue;
+}
+
+.table-two th{
+    background-color: orangered;
+}
+
+table th{
+    text-align: left;
+    color: white;
+    font-family: sans-serif;
+}
+
+table td, table th{
+    border: 1px solid #ddd;
+    padding: 6px;
+}
+
+table tr:nth-child(even){/*should choose odd or even*/
+    background-color: #F2F2F2;
+}
+
+table tr:hover{
+    background-color: #ddd;
+}
